@@ -91,7 +91,7 @@ class QuestionsData():
 		quest_df =self.quest_df
 		Y=self.Y
 		Y_actual_labels = quest_df.get([quest_df.columns[1]])
-		pdb.set_trace()
+		#pdb.set_trace()
 		Y_actual_labels = Y_actual_labels.values.reshape((1,Y_actual_labels.shape[0]))[0]
 		Y_actual = le.transform(Y_actual_labels)
 		print '*****************************************************'
