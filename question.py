@@ -12,7 +12,6 @@ from sklearn.externals import joblib
 import pdb
 import nltk
 import time
-from pandas_confusion import ConfusionMatrix
 class QuestionsData():
 
 	def __init__(self,csv_path='test_data/test_data_formatted.csv',question_column_name = 'Question',output_column_name='Org_tag'):
@@ -100,7 +99,7 @@ class QuestionsData():
 		print 'Precision:         ' + str(precision_score(Y_actual,Y))
 		print 'Recall:            ' + str(recall_score(Y_actual,Y))
 		print 'Confusion Matrix:  '
-		print ConfusionMatrix(Y_actual_labels,self.Y_label)
+		print confusion_matrix(Y_actual_labels,self.Y_label)
 
 		
 		
