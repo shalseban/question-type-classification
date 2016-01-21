@@ -29,7 +29,7 @@ Trained on close to 6000 questions obtained majorly from UIUC dataset - http://c
 
 ####It is an affirmation question if - 
 
-Does it start with: 
+-Does it start with: 
 1. Be-verbs: = { am, is, are, been, being, was, were }.
 2. Modal-verbs: = {can, could, shall, should, will, would, may, might }.
 3. Auxiliary-verbs: = { do, did, does, have, had, has }.
@@ -37,13 +37,16 @@ eg : “Is Obama the president of the U.S. now?”
 
 ####It is not an affirmation question if - 
 
-Does it start with : {'can', 'could','will', 'would','may'} and contain a 'wh' question later
+-Does it start with :
+{'can', 'could','will', 'would','may'} and contain a 'wh' question later
 eg : "Can you tell me what is the time now?"
 
-Does it start with : Be-verbs and contain an 'or' later
+-Does it start with :
+Be-verbs and contain an 'or' later
 eg:“Is he married or not?” ,“Will the concern be on May 23rd or June 1st?”
 
-Does it contain the following pattern : 'some text' 'anybody'|'anyone' 'some text' 'tell'|'know' 'some text'
+-Does it contain the following pattern :
+'some text' 'anybody'|'anyone' 'some text' 'tell'|'know' 'some text'
 eg:“Can anybody tell me who is the president of the U.S.?”, “Does anyone know how much Bill Gates earns a year?”
 
 
