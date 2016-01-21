@@ -14,18 +14,18 @@ Trained on close to 6000 questions obtained majorly from UIUC dataset - http://c
 
 ##Features Used:
 ###1. Syntatic Features:
-####- First Word Token : Which is the first word in the sentence ?
-####- First Word Type : Which Part-of-Speech does the first word belong to?
-####- First Noun : What is the first Noun present in the sentence ?
-####- First Question Token - What is the first question token ('Wh' word) present in the sentence ?
-####- First Question Noun - What is the first noun succeeding the first question token ?
-####- Is Affirmation - Is this question an affirmation question or not based on specific pattern rules ?
+- First Word Token : Which is the first word in the sentence ?
+- First Word Type : Which Part-of-Speech does the first word belong to?
+- First Noun : What is the first Noun present in the sentence ?
+- First Question Token - What is the first question token ('Wh' word) present in the sentence ?
+- First Question Noun - What is the first noun succeeding the first question token ?
+- Is Affirmation - Is this question an affirmation question or not based on specific pattern rules ?
 
 ###2. Ngram Features:
-####- Unigram
-####- Bigram
+- Unigram
+- Bigram
 
-###Is Affirmation rule set :
+###IsAffirmation rule set :
 
 ####It is an affirmation question if - 
 
